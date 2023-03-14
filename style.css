@@ -52,3 +52,17 @@ p
     font-style: italic;
     font-size: 1.1rem;
 }
+@media only screen and (min-width:1000px) {
+    .body{
+        width:min(60%);
+        margin-left:auto;
+        margin-right: auto;
+    }
+    img{
+        width: min(80%);
+        margin-top: 5%;
+    }
+    h2{
+        margin: 20px auto 20px auto;
+    }
+}
